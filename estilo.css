@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Dosis;
+    src: url(./Dosis-Medium.ttf);
+}
+* {
+    box-sizing: border-box;
+  }
+body{
+    background-color: #9ec3ff	;
+    font-family: Dosis;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header{
+    /*height: 60px;
+    margin-left: 10%;
+    margin-right: 10%;*/
+    vertical-align: middle;
+}
+table{
+    background-color: #b0f2c2;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    font-size: 130%;
+}
+.menu{
+    padding: 5px 0 5px 0;
+    background-color: #ffda9e;
+    line-height: 150%;
+    text-align: center;
+}
+ul.menu{
+    margin-top: 0.5%;
+}
+.menu li{
+    display: inline;
+    padding: 0 10px 0 10px;
+    font-size: 16px;
+}
+.menu a{
+    text-decoration: none;
+    color: #8e713a;
+    padding: 8px;
+}
+.menu a:hover{
+    background-color: #8e713a;
+    color:#ffda9e;
+}
+.main_sec{
+    background-color: #f6ecca;
+    width: 60%;
+    margin-top: 0.5%;
+    padding-bottom: 0.1%;
+    float: left;
+}
+.main_sec img{
+    margin-top: 1%;
+    width: 95%;
+    height: 100px;
+    object-fit: cover;         
+    object-position: 100% 50%; /*/move image position in y direction.*/
+}
+.main_sec h2{
+    text-align: center;
+}
+.main_sec h3{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    text-align: justify;
+}
+.costau{
+    float: right;
+    background-color: #e7f2b0;
+    margin-top: 0.5%;
+    margin-right: 5%;
+    width: 30%;
+    margin-bottom: 5%;
+}
+.color{
+    margin-top: 1.5%;
+    width: 95%;
+    background: linear-gradient(90deg, rgba(236,39,39,1) 0%, rgba(251,167,245,1) 100%);
+    height: 4%;
+}
+.costau h2{
+    text-align: center;
+}
+.costau h3{
+    text-align: justify;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+.cuerpo a{
+    text-align: center;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
